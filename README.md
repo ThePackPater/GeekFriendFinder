@@ -10,6 +10,8 @@ _GFF App Instructions_
 
 Simply create a username, add a photo link, then fill out the short survey determining the recognitions of various geek quotes from cross genre pop culture, press the find a match button, and before you can say *KaPow* a geeky match will appear.
 
+*check out the app* https://geek-friendfinder.herokuapp.com/
+
 
 
 
