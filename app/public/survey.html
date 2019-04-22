@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Css style -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/stylesheet.css"> -->
+    <!--The Bootstrapary-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--The Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700" rel="stylesheet">
+    <!-- Font Awesomness -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!--Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- my JavaScript <script type="text/javascript" src="myjs.js"></script> -->
+
+    <title>Friends Indeed Survey</title>
+
+    <style>
+        body {
+            background: url(https://media1.giphy.com/media/MPbLYRdJzLKa4/giphy.gif);
+            font-family: 'Josefin Sans', sans-serif
+        }
+        
+        #Survey {
+            background-color: rgb(205, 224, 218);
+        }
+        
+        .jumbotron {
+            background-color: yellow;
+        }
+        
+        .modal-content {
+            background-color: yellow;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <br>
+        <div class="jumbotron">
+            <div class="text text-center">
+                <img height="142" width="142" src="https://seeklogo.com/images/H/hitchhikers-guide-to-the-galaxy-logo-DA00C9A22A-seeklogo.com.png" class="img-fluid" alt="Responsive image">
+            </div>
+            <hr>
+            <h1 class="text-center"><span class="fas fa-user-astronaut"></span> Geeky Friend Finder </h1>
+        </div>
+        <div class="container" id="Survey">
+            <br>
+            <h2>Let's get this survey started..</h2>
+            <hr>
+            <form class="was-validated">
+                <div class="mb-3">
+                    <label for="validationInput">Enter Your Name.</label>
+                    <input class="form-control is-invalid" id="userName" placeholder="This is required, we need your name to find your match.." required></input>
+                </div>
+
+                <div class="mb-3">
+                    <label for="validationInput">Add a Photo link.</label>
+                    <input class="form-control is-invalid" id="userPhoto" placeholder="This is required, we need a photo URL to find your match.." required></input>
+                </div>
+
+                <hr>
+                <h3>Select how well you know the origin of the each GEEK quote.</h3>
+                <br>
+                <div class="form-group">
+                    <label for="validationInput">1. "The Answer to the Ultimate Question of Life, the Universe, and Everything is (42)"</label>
+                    <select id="q1" class="custom-select" required>
+                        <option value="">click to open this select menu..</option>
+                        <option value="5">5. Totally get that reference..</option>
+                        <option value="4">4. Oh yeah that's from uh..</option>
+                        <option value="3">3. I think I've heard that before..</option>
+                        <option value="2">2. Meh whatever..</option>
+                        <option value="1">1. Not a clue, bub..</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="validationInput">2. "Strange things are afoot at the Circle K, Dude."</label>
+                    <select id="q2" class="custom-select" required>
+                        <option value="">click to open this select menu..</option>
+                        <option value="5">5. Totally get that reference..</option>
+                        <option value="4">4. Oh yeah that's from uh..</option>
+                        <option value="3">3. I think I've heard that before..</option>
+                        <option value="2">2. Meh whatever..</option>
+                        <option value="1">1. Not a clue, bub..</option>
+                        </select>
+                </div>
+                <div class="form-group">
+                    <label for="validationInput">3. "Two possibilities exist: either we are alone in the Universe or we are not. Both are equally terrifying."</label>
+                    <select id="q3" class="custom-select" required>
+                        <option value="">click to open this select menu..</option>
+                        <option value="5">5. Totally get that reference..</option>
+                        <option value="4">4. Oh yeah that's from uh..</option>
+                        <option value="3">3. I think I've heard that before..</option>
+                        <option value="2">2. Meh whatever..</option>
+                        <option value="1">1. Not a clue, bub..</option>
+                        </select>
+                </div>
+                <div class="form-group">
+                    <label for="validationInput">4. "If more of us valued food and cheer and song above hoarded gold, it would be a merrier world."</label>
+                    <select id="q4" class="custom-select" required>
+                        <option value="">click to open this select menu..</option>
+                        <option value="5">5. Totally get that reference..</option>
+                        <option value="4">4. Oh yeah that's from uh..</option>
+                        <option value="3">3. I think I've heard that before..</option>
+                        <option value="2">2. Meh whatever..</option>
+                        <option value="1">1. Not a clue, bub..</option>
+                        </select>
+                </div>
+                <div class="form-group">
+                    <label for="validationInput">5. "So say we all."</label>
+                    <select id="q5" class="custom-select" required>
+                        <option value="">click to open this select menu..</option>
+                        <option value="5">5. Totally get that reference..</option>
+                        <option value="4">4. Oh yeah that's from uh..</option>
+                        <option value="3">3. I think I've heard that before..</option>
+                        <option value="2">2. Meh whatever..</option>
+                        <option value="1">1. Not a clue, bub..</option>
+                        </select>
+                </div>
+                <div class="form-group">
+                    <label for="validationInput">6. "Perhaps man wasn't meant for paradise. Maybe he was meant to claw, to scratch all the way." </label>
+                    <select id="q6" class="custom-select" required>
+                        <option value="">click to open this select menu..</option>
+                        <option value="5">5. Totally get that reference..</option>
+                        <option value="4">4. Oh yeah that's from uh..</option>
+                        <option value="3">3. I think I've heard that before..</option>
+                        <option value="2">2. Meh whatever..</option>
+                        <option value="1">1. Not a clue, bub..</option>
+                        </select>
+                </div>
+                <div class="form-group">
+                    <label for="validationInput">7. “Your focus determines your reality.” </label>
+                    <select id="q7" class="custom-select" required>
+                        <option value="">click to open this select menu..</option>
+                        <option value="5">5. Totally get that reference..</option>
+                        <option value="4">4. Oh yeah that's from uh..</option>
+                        <option value="3">3. I think I've heard that before..</option>
+                        <option value="2">2. Meh whatever..</option>
+                        <option value="1">1. Not a clue, bub..</option>
+                        </select>
+                </div>
+                <div class="form-group">
+                    <label for="validationInput">8. "Yeah, well. The Dude abides."</label>
+                    <select id="q8" class="custom-select" required>
+                        <option value="">click to open this select menu..</option>
+                        <option value="5">5. Totally get that reference..</option>
+                        <option value="4">4. Oh yeah that's from uh..</option>
+                        <option value="3">3. I think I've heard that before..</option>
+                        <option value="2">2. Meh whatever..</option>
+                        <option value="1">1. Not a clue, bub..</option>
+                        </select>
+                </div>
+                <div class="form-group">
+                    <label for="validationInput">9. "No matter where you go, there you are. ”</label>
+                    <select id="q9" class="custom-select" required>
+                        <option value="">click to open this select menu..</option>
+                        <option value="5">5. Totally get that reference..</option>
+                        <option value="4">4. Oh yeah that's from uh..</option>
+                        <option value="3">3. I think I've heard that before..</option>
+                        <option value="2">2. Meh whatever..</option>
+                        <option value="1">1. Not a clue, bub..</option>
+                        </select>
+                </div>
+                <div class="form-group">
+                    <label for="validationInput">10. “Do. Or do not. There is no try.”</label>
+                    <select id="q10" class="custom-select" required>
+                        <option value="">click to open this select menu..</option>
+                        <option value="5">5. Totally get that reference..</option>
+                        <option value="4">4. Oh yeah that's from uh..</option>
+                        <option value="3">3. I think I've heard that before..</option>
+                        <option value="2">2. Meh whatever..</option>
+                        <option value="1">1. Not a clue, bub..</option>
+                        </select>
+                </div>
+                <br>
+                <!-- Trigger the modal with a button -->
+                <button type="button" id="submit" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal"><i class="fas fa-meteor"></i> Find My Match</button>
+                <br>
+                <br>
+            </form>
+        </div>
+
+        <!-- Modal -->
+        <div id="resultsModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Best Match</h4>
+                    </div>
+                    <div class="modal-body">
+                        <h2 id="matchName"><b></b></h2>
+                        <img id="matchPhoto" height="400" width="400">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-lg btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            $("#submit").on("click", function() {
+                //event.preventDefault();
+
+                function toValidate() {
+                    var isValid = true;
+                    $(".form-control").each(function() {
+                        if ($(this).val() === "") {
+                            isValid = false;
+                        }
+                    });
+                    $(".custom-select").each(function() {
+                        if ($(this).val() === "") {
+                            isValid = false;
+                        }
+                    });
+                    return isValid;
+                }
+                if (toValidate()) {
+
+                    var userData = {
+                        name: $("#userName").val(),
+                        photo: $("#userPhoto").val(),
+                        scores: [
+                            $("#q1").val(),
+                            $("#q2").val(),
+                            $("#q3").val(),
+                            $("#q4").val(),
+                            $("#q5").val(),
+                            $("#q6").val(),
+                            $("#q7").val(),
+                            $("#q8").val(),
+                            $("#q9").val(),
+                            $("#q10").val()
+                        ]
+
+                    };
+
+                    var currentURL = window.location.origin;
+
+                    $.post(currentURL + "/api/friends", userData, function(data) {
+
+                        $("#matchName").text(data.name);
+                        $("#matchPhoto").attr("src", data.photo);
+                        $("#resultsModal").modal("toggle");
+
+                    });
+
+                } else {
+
+                    alert("Dude, complete the whole survey!!");
+                }
+
+                return false;
+
+                // Clear the form when submitting
+
+                $("#userName").val("");
+                $("#userphoto").val("");
+                $("#q1").val("");
+                $("#q2").val("");
+                $("#q3").val("");
+                $("#q4").val("");
+                $("#q5").val("");
+                $("#q6").val("");
+                $("#q7").val("");
+                $("#q8").val("");
+                $("#q9").val("");
+                $("#q10").val("");
+            });
+        </script>
+
+</body>
+
+</html>

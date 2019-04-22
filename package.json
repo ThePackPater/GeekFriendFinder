@@ -1,0 +1,23 @@
+{
+  "name": "geekfriendfinder",
+  "version": "1.0.0",
+  "description": "Express.JS app",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThePackPater/GeekFriendFinder.git"
+  },
+  "author": "PACK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThePackPater/GeekFriendFinder/issues"
+  },
+  "homepage": "https://github.com/ThePackPater/GeekFriendFinder#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
