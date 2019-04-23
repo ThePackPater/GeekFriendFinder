@@ -241,7 +241,7 @@ var friends = [
 
     {
         "name": "Devan",
-        "photo": "https://www.facebook.com/images/photos/profile/gradient.png",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYwb0ay6LruJUzaYLqRmTTxrJU8VhjWN-JkAxcHCdEY-AT7cGB",
         "scores": [
             "3",
             "5",
