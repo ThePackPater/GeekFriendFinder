@@ -373,6 +373,23 @@ var friends = [
             "2",
             "2"
         ]
+    },
+
+    {
+        "name": "Geek Champion",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD9VnaLIffOXu4sTnZjjK7dULCuZBKCOO-c7pU7aaJWlZNvXWX",
+        "scores": [
+            "5",
+            "5",
+            "1",
+            "5",
+            "5",
+            "1",
+            "5",
+            "1",
+            "5",
+            "5"
+        ]
     }
 ];
 

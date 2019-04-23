@@ -216,7 +216,7 @@
                     </div>
                     <div class="modal-body">
                         <h2 id="matchName"><b></b></h2>
-                        <img id="matchPhoto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKOJs4Afynh7_Hcub3zKk4kl3NhbeF8_Ael5LErdYeaLAfD6x2Mg">
+                        <img id="matchPhoto" class="img-fluid" src="">
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-lg btn-primary" data-dismiss="modal">Close</button>
@@ -273,6 +273,20 @@
 
                     });
 
+                    // Clear the form when submitting
+                    $("#userName").val("");
+                    $("#userphoto").val("");
+                    $("#q1").val("");
+                    $("#q2").val("");
+                    $("#q3").val("");
+                    $("#q4").val("");
+                    $("#q5").val("");
+                    $("#q6").val("");
+                    $("#q7").val("");
+                    $("#q8").val("");
+                    $("#q9").val("");
+                    $("#q10").val("");
+
                 } else {
 
                     alert("Dude, complete the whole survey!!");
@@ -281,20 +295,6 @@
                 return false;
 
             });
-
-            // Clear the form when submitting
-            $("#userName").val("");
-            $("#userphoto").val("");
-            $("#q1").val("");
-            $("#q2").val("");
-            $("#q3").val("");
-            $("#q4").val("");
-            $("#q5").val("");
-            $("#q6").val("");
-            $("#q7").val("");
-            $("#q8").val("");
-            $("#q9").val("");
-            $("#q10").val("");
         </script>
 
 </body>
