@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--The Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kanit:900" rel="stylesheet">
+
     <!-- Font Awesomness -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- jQuery -->
@@ -25,19 +27,32 @@
     <style>
         body {
             background: url(https://media1.giphy.com/media/MPbLYRdJzLKa4/giphy.gif);
-            font-family: 'Josefin Sans', sans-serif
+            font-family: 'Josefin Sans', sans-serif;
+            color: #2e69b6;
+        }
+        
+        h1 {
+            font-family: 'Kanit', sans-serif;
         }
         
         #Survey {
             background-color: rgb(205, 224, 218);
+            outline: 3px solid #2e69b6;
         }
         
         .jumbotron {
             background-color: yellow;
+            outline: 3px solid #2e69b6;
+            color: #2e69b6;
         }
         
         .modal-content {
             background-color: yellow;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            outline: 3px solid #2e69b6;
         }
     </style>
 
@@ -265,21 +280,21 @@
 
                 return false;
 
-                // Clear the form when submitting
-
-                $("#userName").val("");
-                $("#userphoto").val("");
-                $("#q1").val("");
-                $("#q2").val("");
-                $("#q3").val("");
-                $("#q4").val("");
-                $("#q5").val("");
-                $("#q6").val("");
-                $("#q7").val("");
-                $("#q8").val("");
-                $("#q9").val("");
-                $("#q10").val("");
             });
+
+            // Clear the form when submitting
+            $("#userName").val("");
+            $("#userphoto").val("");
+            $("#q1").val("");
+            $("#q2").val("");
+            $("#q3").val("");
+            $("#q4").val("");
+            $("#q5").val("");
+            $("#q6").val("");
+            $("#q7").val("");
+            $("#q8").val("");
+            $("#q9").val("");
+            $("#q10").val("");
         </script>
 
 </body>

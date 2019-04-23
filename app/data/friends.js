@@ -356,6 +356,23 @@ var friends = [
             "1",
             "5"
         ]
+    },
+
+    {
+        "name": "Dwight Schrute",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBgfaiwg9mdaIlG1wDP5fISBgyEqAR2o5TObbkVzDBIve8Cj95dA",
+        "scores": [
+            "2",
+            "2",
+            "5",
+            "2",
+            "5",
+            "5",
+            "5",
+            "2",
+            "2",
+            "2"
+        ]
     }
 ];
 
